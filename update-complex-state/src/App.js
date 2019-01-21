@@ -13,7 +13,7 @@ const InstructorItem = (props) => {
   );
 }
 
-InstructorItem.PropTypes = {
+InstructorItem.propTypes = {
   name: PropTypes.string,
   hobbies: PropTypes.arrayOf(PropTypes.string)
 };
